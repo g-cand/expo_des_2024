@@ -3,3 +3,4 @@
 > Projeto em desenvolvimento
 
 <p>Projeto para exposição desinvoltech, Colégio estadual João Manoel Mondrone, 2°ano ensino medio</p>
+<p> organização lógica </p>
