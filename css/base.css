@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+:root {
+    --clr-dark: #070a12;
+    --clr-light: #f1f5f9;
+    --clr-accent: #e11d48;
+    --clr-lightRose: #fb7185;
+    --clr-green: #4ade80;
+    --clr-sky: #38bdf8;
+    --clr-pink: #f472b6;
+    --clr-violet: #a78bfa;
+    --clr-yellow: #facc15;
+    --clr-main: #ffbd59;
+}
+
+header {
+    background-color: var(--clr-main);
+    height: 100px;
+    border-bottom: 0.2em solid black;
+    display: flex;
+}
+
+header img{
+    height: 75px;
+    border-radius: 16px;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+.searchBox{
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--clr-light);
+    height: 30px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 40px;
+    margin-left: 600px;
+    margin-top: 20px;
+}
+
+.searchBar{
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+::-webkit-input-placeholder{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif
+}
