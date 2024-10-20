@@ -1,161 +1,80 @@
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: system-ui, -apple-system, helvetica, arial, sans-serif;
-    height: 8vh;
-  }
-  
-  .nav-list {
-    list-style: none;
-    display: flex;
-  }
-  
-  .nav-list li {
-    letter-spacing: 3px;
-    margin-left: 32px;
-    background-color: var(--clr-main);
-    padding: 16px;
-    padding-inline: 1px;
-    margin-top: 15px;
-    margin-inline: 20px;
-    border-radius: 30px;
-  }
+:root {
+  --clr-dark: #070a12;
+  --clr-light: #ffffff;
+  --clr-accent: #e11d48;
+  --clr-lightRose: #fb7185;
+  --clr-green: #4ade80;
+  --clr-sky: #38bdf8;
+  --clr-pink: #f472b6;
+  --clr-violet: #a78bfa;
+  --clr-yellow: #facc15;
+  --clr-main: #3498DB;
+  --clr-darkBlue: #2C3E50;
+}
 
-  .nav-list :hover{
-    opacity: 0.7;
-    transition: 0.3s;
-    background-color: var(--clr-main);
-  }
-
-  .nav-list li a{
-    text-decoration: none;
-    color: var(--clr-dark);
-    padding: 16px;
-    padding-inline: 60px;
-    border-radius: 30px;
-  }
-  
-  .mobile-menu {
-    cursor: pointer;
-    display: none;
-  }
-  
-  .mobile-menu div {
-    width: 32px;
-    height: 2px;
-    background: var(--clr-dark);
-    margin: 8px;
-    transition: 0.3s;
-  }
-  
-  @media (max-width: 999px) {
-
-    .nav-list {
-      position: absolute;
-      top: 8vh;
-      right: 0;
-      width: 50vh;
-      height: 92vh;
-      background: var(--clr-main);
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-around;
-      transform: translateX(100%);
-      transition: transform 0.3s ease-in;
-    }
-  
-    .nav-list li {
-      margin-left: 0;
-      opacity: 0;
-    }
-
-    .mobile-menu {
-      display: block;
-    }
-  }
-  
-  .nav-list.active {
-    transform: translateX(0);
-  }
-  
-  @keyframes navLinkFade {
-    from {
-      opacity: 0;
-      transform: translateX(50px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0px);
-    }
-  }
-  
-  .mobile-menu.active .line1 {
-    transform: rotate(-45deg) translate(-8px, 8px);
-  }
-  
-  .mobile-menu.active .line2 {
-    opacity: 0;
-  }
-  
-  .mobile-menu.active .line3 {
-    transform: rotate(45deg) translate(-5px, -7px);
-  }
-
-.anuncio{
-    height: 2px;
-    margin-block: 50px;
-    margin-inline: 200px;
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+section.hero {
+  background: #B2EBF2;
+  text-align: center;
+  padding: 50px 20px;
+  border-bottom: 2px solid var(--clr-main);
 }
 
 .container {
-    position: fixed;
-    margin-top: 50px;
-    margin-left: 20vw;
-    display: grid;
-    grid-template-rows: repeat(3, 300px);
-    grid-template-columns: repeat(3, 300px);
-    grid-gap: 4em;
+  margin-top: 50px;
+  margin-left: 20vw;
+  display: grid;
+  grid-template-rows: repeat(3, 300px);
+  grid-template-columns: repeat(3, 300px);
+  grid-gap: 4em;
 }
 
 .container :hover{
-    background-color: var(--clr-yellow);
-    transition: 0.5s;
-    cursor: pointer;
+  background-color: #1ABC9C;
+  transition: 0.5s;
+  cursor: pointer;
 }
 
-  
+
 .noticias {
-    width: 300px;
-    height: 300px;
-    text-align: center;
-    border-radius: 10px;
-    color: var(--clr-dark);
-    background-color: var(--clr-main);
-    font-weight: 500;
-    font-size: 1.25rem;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  border-radius: 10px;
+  color: var(--clr-dark);
+  background-color: var(--clr-main);
+  font-weight: 500;
+  font-size: 1.25rem;
 }
 
 
 .noticias a{
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    color: var(--clr-dark);
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: var(--clr-dark);
 }
 
 .noticias img{
-    display: flex;
-    position: relative;
-    justify-items: center;
-    max-width: 300px;
-    min-width: 150px;
-    width: 150px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-inline: 80px;
+  display: flex;
+  justify-items: center;
+  max-width: 300px;
+  min-width: 150px;
+  width: 150px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-inline: 80px;
+}
+
+.btn-leia-mais {
+  background-color: var(--clr-darkBlue); 
+  color: var(--clr-light);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; 
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn-leia-mais:hover {
+  background-color: #1A242F; 
 }
