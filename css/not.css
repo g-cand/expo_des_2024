@@ -4,5 +4,10 @@
 }
 
 .noticia img{
-    height: 300px;
+    width: 60%;
+    height: auto;
+}
+
+.artigo{
+    font-weight: bold;
 }
