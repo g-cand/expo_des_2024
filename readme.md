@@ -2,4 +2,4 @@
 
 > Projeto finalizado
 
-<p>Projeto para exposição desinvoltech, Colégio estadual João Manoel Mondrone, 2°ano ensino medio</p>
+<p>Projeto para exposição desenvoltech, Colégio estadual João Manoel Mondrone, 2°ano ensino medio</p>

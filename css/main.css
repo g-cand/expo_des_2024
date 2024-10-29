@@ -12,13 +12,6 @@
   --clr-darkBlue: #2C3E50;
 }
 
-section.hero {
-  background: #B2EBF2;
-  text-align: center;
-  padding: 50px 20px;
-  border-bottom: 2px solid var(--clr-main);
-}
-
 .container {
   margin-block: 50px;
   display: grid;
@@ -85,21 +78,6 @@ section.hero {
   margin-left: 28px;
   margin-top: 20px;
 
-}
-
-.btn-leia-mais {
-  background-color: var(--clr-darkBlue); 
-  color: var(--clr-light);
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px; 
-  font-weight: bold;
-  transition: background-color 0.3s;
-}
-
-.btn-leia-mais:hover {
-  background-color: #1A242F; 
 }
 
 .clima{

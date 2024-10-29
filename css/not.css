@@ -8,9 +8,7 @@
     height: auto;
 }
 
-.artigo{
+.noticia p{
     font-weight: bold;
-}
-section{
-    background-color: #e2e0e0;
+    text-align: start;
 }
