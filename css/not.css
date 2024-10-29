@@ -1,6 +1,11 @@
 .noticia{
     margin-inline: 25vw;
+    margin-top: 10px;
     text-align: center;
+    background-color: #ececec;
+    padding: 40px;
+    border-radius: 20px;
+    
 }
 
 .noticia img{
