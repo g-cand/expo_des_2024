@@ -1,16 +1,4 @@
-:root {
-    --clr-dark: #070a12;
-    --clr-light: #ffffff;
-    --clr-accent: #e11d48;
-    --clr-lightRose: #fb7185;
-    --clr-green: #4ade80;
-    --clr-sky: #38bdf8;
-    --clr-pink: #f472b6;
-    --clr-violet: #a78bfa;
-    --clr-yellow: #facc15;
-    --clr-main: #3498DB;
-    --clr-darkBlue: #2C3E50;
-}
+@import url(./variables.css);
 
 body {
     font-family: 'Arial', sans-serif;
@@ -56,7 +44,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #1ABC9C;
+    color: var(--clr-green);
 }
 
 footer {

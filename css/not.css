@@ -1,8 +1,10 @@
+@import url(./variables.css);
+
 .noticia {
     margin-inline: 25vw;
     margin-top: 10px;
     text-align: center;
-    background-color: #ececec;
+    background-color: var(--clr-lightGray);
     padding: 40px;
     border-radius: 20px;
 

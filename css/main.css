@@ -1,16 +1,4 @@
-:root {
-  --clr-dark: #070a12;
-  --clr-light: #ffffff;
-  --clr-accent: #e11d48;
-  --clr-lightRose: #fb7185;
-  --clr-green: #4ade80;
-  --clr-sky: #38bdf8;
-  --clr-pink: #f472b6;
-  --clr-violet: #a78bfa;
-  --clr-yellow: #facc15;
-  --clr-main: #3498DB;
-  --clr-darkBlue: #2C3E50;
-}
+@import url(./variables.css);
 
 .container {
   margin-block: 50px;
@@ -49,7 +37,7 @@
 }
 
 .container :hover {
-  background-color: #1ABC9C;
+  background-color: var(--clr-green);
   transition: 0.5s;
   cursor: pointer;
 }
@@ -98,7 +86,7 @@
 .searchBox {
   display: flex;
   justify-content: end;
-  background-color: white;
+  background-color: var(--clr-light);
   height: 30px;
   width: 250px;
   padding: 10px;
