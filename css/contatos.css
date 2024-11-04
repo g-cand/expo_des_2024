@@ -55,7 +55,6 @@ body {
 .form input[type="submit"]:hover {
     background-color: var(--clr-green);
     transition: 0.5s;
-
 }
 
 .social-icons {
