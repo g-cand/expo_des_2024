@@ -27,7 +27,7 @@ header {
     text-align: center;
 }
 
-.logo{
+.logo {
     text-decoration: none;
     color: #333;
 }
@@ -56,7 +56,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #1ABC9C; 
+    color: #1ABC9C;
 }
 
 footer {
