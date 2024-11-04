@@ -1,5 +1,9 @@
 :root {
     --clr-dark: #070a12;
+<<<<<<< HEAD
+    --clr-darkGray: #333;
+=======
+>>>>>>> 1ebff96b3ec489c316d1bae16916e8543c3d2028
     --clr-light: #ffffff;
     --clr-lightGray: #f0f0f0;
     --clr-accent: #e11d48;

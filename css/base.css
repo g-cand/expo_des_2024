@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--clr-light);
-    color: #333;
+    color: var(--clr-darkGray);
 }
 
 header {
@@ -17,7 +17,7 @@ header {
 
 .logo {
     text-decoration: none;
-    color: #333;
+    color: var(--clr-darkGray);
 }
 
 nav {
