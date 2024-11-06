@@ -5,20 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Correio do Lago</title>
-
+    
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <header>
-        <h1><a class="logo" href="./index.html">Correio do Lago</a></h1>
-
-        <div class="pesquisa">
-            <div class="searchBox">
-                <input type="text" class="searchBar" placeholder="Pesquisar...">
-            </div>
-        </div>
-
+    <header>        
         <nav>
             <ul>
                 <li><a href="./index.html">Inicio</a></li>
@@ -26,6 +18,17 @@
                 <li><a href="#">Sobre</a></li>
             </ul>
         </nav>
+        
+        <h1><a class="logo" href="./index.html">Correio do Lago</a></h1>
+        
+        <div class="pesquisa">
+            <div class="searchBox">
+                <button class="search-button" onclick="perquisar()">
+                    <img src="./img/search.svg" alt="Ícone de uma lupa" class="search-icon">
+                </button>
+                <input type="text" class="searchBar" placeholder="Pesquisar...">
+            </div>
+        </div>
     </header>
 
     <section>

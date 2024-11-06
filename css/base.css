@@ -9,31 +9,80 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
     background-color: var(--clr-main);
     color: var(--clr-light);
-    padding: 20px 0;
     text-align: center;
+}
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+}
+
+.searchBox {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--clr-light);
+    height: 30px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 99px;
+}
+
+.search-button {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    width: 30px;
+    cursor: pointer;
+}
+
+.search-icon {
+    width: 100%;
+    height: 100%;
+}
+
+.searchBar {
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+::-webkit-input-placeholder {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .logo {
     text-decoration: none;
-    color: var(--clr-darkGray);
+    color: var(--clr-main);
+    background-color: var(--clr-darkBlue);
+    padding: 7px 10px;
+    border-radius: 5px;
 }
 
 nav {
     background-color: var(--clr-darkBlue);
-    padding: 10px 0;
+    /* padding: 5px 10px; */
+    border-radius: 99px;
 }
 
 nav ul {
-    list-style: none;
     padding: 0;
-    display: flex;
+    margin: 0;
+    list-style: none;
+    display: inline-flex;
     justify-content: center;
 }
 
 nav ul li {
-    margin: 0 15px;
+    /* margin: 0 15px; */
 }
 
 nav a {
@@ -41,10 +90,16 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav a:hover {
-    color: var(--clr-green);
+    background-color: var(--clr-green);
+    border-radius: 99px;
 }
 
 footer {
