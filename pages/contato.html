@@ -11,16 +11,25 @@
     <link rel="stylesheet" href="../css/contatos.css">
 </head>
 <body>
-    <header>
-        <h1><a class="logo" href="../index.html">Correio do Lago</a></h1>
-
+    <header>        
         <nav>
             <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./contato.html">Contato</a></li>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./pages/contato.html">Contato</a></li>
                 <li><a href="#">Sobre</a></li>
             </ul>
         </nav>
+        
+        <h1><a class="logo" href="./index.html">Correio do Lago</a></h1>
+        
+        <div class="pesquisa">
+            <div class="searchBox">
+                <button class="search-button" onclick="perquisar()">
+                    <img src="../assets/svg/search.svg" alt="Ícone de uma lupa" class="search-icon">
+                </button>
+                <input type="text" class="searchBar" placeholder="Pesquisar...">
+            </div>
+        </div>
     </header>
 
     <div class="content">
