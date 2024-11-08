@@ -29,7 +29,7 @@
         grid-template-rows: repeat(6, 300px);
         grid-template-columns: repeat(1, 300px);
         grid-gap: 4em;
-  }
+    }
 
     .clima img {
         display: none;
@@ -48,17 +48,13 @@
     height: 300px;
     text-align: center;
     border-radius: 10px;
-    color: var(--clr-dark);
     background-color: var(--clr-main);
+
+    color: var(--clr-dark);
     font-weight: 500;
     font-size: 1.25rem;
-}
-
-
-.noticias a {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    color: var(--clr-dark);
 }
 
 .noticias img {
