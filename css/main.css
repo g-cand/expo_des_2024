@@ -43,7 +43,7 @@
 }
 
 
-.noticias {
+.noticia {
     width: 300px;
     height: 300px;
     text-align: center;
@@ -57,7 +57,7 @@
     text-decoration: none;
 }
 
-.noticias img {
+.noticia img {
     display: flex;
     justify-items: center;
     width: 80%;
