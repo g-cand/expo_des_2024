@@ -36,6 +36,10 @@
     }
 }
 
+section h1 {
+    margin: 20px 0;
+}
+
 .container :hover {
     background-color: var(--clr-green);
     transition: 0.5s;
